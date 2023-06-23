@@ -1,0 +1,58 @@
+header {
+    margin-top: 25px;
+}
+.header__header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    display: block;
+    width: 248.613px;
+    height: 48px;
+}
+
+.tel__block {
+    width: 144px;
+    height: 45px;
+    text-align: right;
+}
+.tel__link {
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.tel__descr {
+    color: #999;
+    font-size: 15px;
+    font-family: 'Nunito';
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu {
+    display: flex;
+    list-style: none;
+    width: 467px;
+    height: 19px;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+.menu__item {
+    font-size: 14px;
+    font-family: Nunito;
+}
+.bucket {
+    width: 104px;
+    height: 40px;
+    border-radius: 1000px;
+    background-color: #F96900;
+    border: none;
+    margin-top: 31px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
