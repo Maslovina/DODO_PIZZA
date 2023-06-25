@@ -12,8 +12,6 @@ header {
 }
 
 .tel__block {
-    width: 144px;
-    height: 45px;
     text-align: right;
 }
 .tel__link {

@@ -2,7 +2,9 @@
     margin-top: 134px;
     padding-top: 50px;
     background: #464C55;
-    height: 1000px;
+}
+.footer__header {
+    display: flex;
 }
 .nav__block {
     display: flex;
@@ -17,7 +19,159 @@
     font-weight: 600;
     line-height: 26px;
 }
-.list {
+.list li{
     list-style: none;
+}
+.list a{
     color: #C7C9CC;
+}
+.nav__list li{
+    margin-bottom: 10px;
+}
+.first {
+    width: 140px;
+    margin-right: 40px;
+}
+.second {
+    width: 147px;
+    margin-right: 33px;
+}
+.third {
+    width: 154px;
+    margin-right: 26px;
+}
+.fourth {
+    width: 166px;
+    margin-right: 78px;
+}
+.store__link {
+    max-width: 135px;
+    height: 40px;
+}
+.contact__block {
+    text-align: end;
+}
+.footer__tel {
+    display: block;
+    margin-top: 29px;
+    color: #FFF;
+    font-size: 26px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    line-height: 26px;
+}
+.footer__tel-title {
+    margin-top: 6px;
+    font-size: 15px;
+    font-family: 'Nunito';
+    color: #A2A5AA;
+}
+
+.footer__mail {
+    display: block;
+    margin-top: 26px;
+    color: #FFF;
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Nunito';
+}
+.footer__descr {
+    display: flex;
+    margin-top: 93px;
+}
+.revenue {
+    width: 299px;
+    margin-right: 156px;
+}
+.revenue__title {
+    color: #FFF;
+    font-size: 26px;
+    font-family: Nunito;
+    font-weight: 600;
+    line-height: 26px;
+}
+.revenue__subtitle {
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: Nunito;
+    line-height: 22px;
+    color: #C7C9CC; 
+}
+.pizzerias {
+    width: 241px;
+}
+.pizzerias__title {
+    color: #FFF;
+    font-size: 26px;
+    font-family: Nunito;
+    font-weight: 600;
+    line-height: 26px;
+}
+.pizzerias__subtitle {
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: Nunito;
+    line-height: 22px;
+    color: #C7C9CC; 
+}
+.footer__line {
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+    height: 1px;
+    background: #6B7077;
+}
+.footer__footer {
+    display: flex;
+    align-items: center;
+    margin-top: 46px;
+    padding-bottom: 40px;
+}
+.footer__logo__block {
+    display: flex;
+    align-items: center;
+}
+.footer__logo {
+    width: 191.613px;
+    height: 22px;
+    margin-right: 28.39px;
+}
+.corp {
+    font-size: 16px;
+    font-family: Nunito;
+    color: #C7C9CC;
+    width: 56px;
+    margin-right: 64px;
+}
+.sublink {
+    display: flex;
+    margin-right: 95px;
+    width: 441px;
+    max-height: 22px;
+    align-items: center;
+    white-space: nowrap;
+}
+.sublink a{
+    display: block;
+    font-size: 16px;
+    font-family: Nunito;
+    color: #C7C9CC;
+    margin-right: 20px;
+    line-height: 22px;
+}
+.sublink a:last-child {
+    margin-right: 0;
+}
+.social__link {
+    display: flex;
+    width: 184px;
+    justify-content: space-between;
+}
+.social__link a{
+    display: block;
+}
+.social__img {
+    display: block;
+    width: 32px;
+    height: 32px;
 }
