@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 134px;
+    padding-top: 50px;
+    background: #464C55;
+    height: 1000px;
+}
+.nav__block {
+    display: flex;
+}
+.nav__list {
+    list-style: none;
+}
+.list__title {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 600;
+    line-height: 26px;
+}
+.list {
+    list-style: none;
+    color: #C7C9CC;
+}
