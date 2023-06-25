@@ -1,5 +1,6 @@
 @import url(../style/header.css);
 @import url(../style/main.css);
+@import url(../style/footer.css);
 
 @font-face {
   font-weight: 400;
@@ -53,6 +54,7 @@ p {
     font-size: 14px;
     font-family: Nunito;
 }
+
 /* buttons start */
 .bucket__btn {
     cursor: pointer;
@@ -105,6 +107,7 @@ p {
     color: #D55406;
 }
 /* buttons end */
+
 /* main Grid start */
 .block__item {
     display: grid;
@@ -140,7 +143,7 @@ p {
 }
 .card__subtitle {
     color: #73798C;
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 .card__price {
     color: #000;
