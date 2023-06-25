@@ -45,14 +45,3 @@ header {
     font-size: 14px;
     font-family: Nunito;
 }
-.bucket {
-    width: 104px;
-    height: 40px;
-    border-radius: 1000px;
-    background-color: #F96900;
-    border: none;
-    margin-top: 31px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 600;
-}

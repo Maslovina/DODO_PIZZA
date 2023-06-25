@@ -33,6 +33,12 @@ h2 {
     font-size: 24px;
     color: #000;
 }
+h3 {
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 600;
+}
 h4 {
     color: #000;
     font-size: 16px;
@@ -47,3 +53,99 @@ p {
     font-size: 14px;
     font-family: Nunito;
 }
+/* buttons start */
+.bucket__btn {
+    cursor: pointer;
+    width: 104px;
+    height: 40px;
+    border-radius: 1000px;
+    background-color: #F96900;
+    border: none;
+    margin-top: 31px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bucket__btn:hover {
+    background: #ED5D08;
+}
+.card__primary__btn {
+    display: block;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 1000px;
+    background: #F96900;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.card__primary__btn:hover {
+  background: #ED5D08;
+}
+.card__secondary__btn {
+    display: block;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 1000px;
+    background: #FFF0E6;
+    border: none;
+    color: #D15700;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.card__secondary__btn:hover {
+    background: #FFD0B2;
+    color: #D55406;
+}
+/* buttons end */
+/* main Grid start */
+.block__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 40px;
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+}
+.item__card {
+    display: grid;
+    grid-template-rows: 220px 1fr 40px;
+    grid-template-columns: 100%;
+    width: 250px;
+    height: 370px;
+}
+.item__card__img img{
+    display: block;
+    margin: 0 auto;
+    max-width: 220px;
+    max-height: 220px;
+}
+.item__card__descr {
+    margin-top: 5px;
+}
+.item__card__descr p{
+    margin-top: 10px;
+}
+.item__card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__subtitle {
+    color: #73798C;
+    margin-right: 15px;
+}
+.card__price {
+    color: #000;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 600;
+}
+/* main grid end */
