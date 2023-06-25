@@ -13,9 +13,7 @@
     box-shadow: 0px 5px 20px 0px rgba(115, 121, 140, 0.15);
     cursor: pointer;
 }
-
 /* popular */
-
 .popular__header {
     margin-top: 70px;
 }
@@ -24,7 +22,6 @@
     justify-content: space-between;
     margin-top: 30px;
 }
-
 .popular__card {
     display: flex;
     width: 250px;
@@ -36,7 +33,6 @@
     align-items: center;
     cursor: pointer;
 }
-
 .card__pic {
     max-width: 76px;
     max-height: 76px;
@@ -60,12 +56,10 @@
     margin-top: 70px;
 }
 /* Deserts */
-
 .desert {
     margin-top: 70px;
 }
 /* Drinks */
-
 .drinks {
     margin-top: 70px;
 }

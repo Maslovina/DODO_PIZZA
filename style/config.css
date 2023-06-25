@@ -1,7 +1,6 @@
 @import url(../style/header.css);
 @import url(../style/main.css);
 @import url(../style/footer.css);
-
 @font-face {
   font-weight: 400;
   font-family: Nunito;
@@ -54,7 +53,6 @@ p {
     font-size: 14px;
     font-family: Nunito;
 }
-
 /* buttons start */
 .bucket__btn {
     cursor: pointer;
@@ -107,7 +105,6 @@ p {
     color: #D55406;
 }
 /* buttons end */
-
 /* main Grid start */
 .block__item {
     display: grid;
