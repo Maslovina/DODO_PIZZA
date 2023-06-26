@@ -1,0 +1,27 @@
+@media screen and (max-width: 320px){
+   header {
+    margin-top: 12px;
+   }
+   .header__header {
+    margin-left: 16px;
+   }
+    .tel__block {
+        display: none;
+    }
+    .header__menu {
+        display: none;
+    }
+    .bucket__btn {
+        display: none;
+    }
+    .header__logo {
+        width: 156.073px;
+        height: 23px;
+    }
+    .banner {
+        background-image: url(../img/banner_1_adapt.png);
+        width: 250px;
+        height: 93px;
+    
+    }
+}

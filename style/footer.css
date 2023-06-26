@@ -130,6 +130,8 @@
 .footer__logo__block {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 64px;
 }
 .footer__logo {
     width: 191.613px;
@@ -141,23 +143,21 @@
     font-family: Nunito;
     color: #C7C9CC;
     width: 56px;
-    margin-right: 64px;
+    
 }
 .sublink {
     display: flex;
     margin-right: 95px;
-    width: 441px;
-    max-height: 22px;
+    max-width: 441px;
+    height: 22px;
     align-items: center;
-    white-space: nowrap;
 }
 .sublink a{
-    display: block;
     font-size: 16px;
-    font-family: Nunito;
+    font-family: 'Nunito';
     color: #C7C9CC;
     margin-right: 20px;
-    line-height: 22px;
+    white-space: nowrap;
 }
 .sublink a:last-child {
     margin-right: 0;
@@ -165,6 +165,7 @@
 .social__link {
     display: flex;
     width: 184px;
+    height: 32px;
     justify-content: space-between;
 }
 .social__link a{
